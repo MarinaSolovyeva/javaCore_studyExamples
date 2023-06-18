@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/resourses/text.properties" />
+    <file url="file://$PROJECT_DIR$/resourses/text_en_US.properties" />
+    <file url="file://$PROJECT_DIR$/resourses/text_uk_UA.properties" />
+    <file url="file://$PROJECT_DIR$/resourses/text_рус_.properties" />
+    <file url="file://$PROJECT_DIR$/resourses/text_рус__en_US.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/resourses/text_рус_.properties" />
+      <file value="file://$PROJECT_DIR$/resourses/text_рус_RUSSIA.properties" />
+      <file value="file://$PROJECT_DIR$/resourses/text_рус__en_US.properties" />
+      <base-name>text_рус_</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/resourses/text.properties" />
+      <file value="file://$PROJECT_DIR$/resourses/text_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/resourses/text_рус_Russia.properties" />
+      <base-name>text</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
