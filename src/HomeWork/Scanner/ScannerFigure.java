@@ -1,5 +1,6 @@
 package HomeWork.Scanner;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ScannerFigure {
@@ -135,8 +136,22 @@ public class ScannerFigure {
     }
 
     public static void main(String[] args) {
-        System.out.println("Введите размер фигуры: ");
-        int size = in.nextInt();
+        int size = 0;
+
+        while (true) {
+            try {
+                System.out.println("Введите размер фигуры: ");
+                size = in.nextInt();
+                if (size > 0) {
+                    break;
+                } else {
+                    System.out.println("Размер должен быть больше 0. Повторите ввод.");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Вы ввели неверное значение. Повторите ввод.");
+                in.next();
+            }
+        }
         char letter = '*';
 
         System.out.println("Draw of Square: start time 18:25");
