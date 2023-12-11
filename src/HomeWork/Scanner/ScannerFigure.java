@@ -6,13 +6,7 @@ import java.util.Scanner;
 public class ScannerFigure {
 
     //Консольное приложение. Запрашивает размер фигуры и рисует (звёздочками)
-    //1. Квадрат
-    //2. Квадратную рамку
-    //3. Треугольник заполненный
-    //4. Треугольник
-    //5. Песочные часы
-    //6. Букву Х
-    //
+    //1. Квадрат 2. Квадратную рамку 3. Треугольник заполненный 4. Треугольник 5. Песочные часы 6. Букву Х
     //Ввод с клавиатуры можно опустить. Напишите код типа
     //        // 09:55
     //        Scanner xKeyboard = new Scanner(System.in);
@@ -28,25 +22,15 @@ public class ScannerFigure {
     //        }
     //        // 09:58
     //        System.out.println("square");
-    //...
     //        // 09:59
     //        System.out.println("frame");
-    //...
     //        // 10:02
     //        System.out.println("triangle filled");
-    //...
     //        // 10:08
     //        System.out.println("triangle framed");
-    //...
-    //
-    //в комментарии пишете время, во сколько начали новый блок. На моё время не смотрите, я-то уже не в первый раз делаю, но задачки простые...
-    //Ожидаемый результат на выводе типа такого
+
     public static Scanner in = new Scanner(System.in);
 
-
-    public static void printFigure (int size, char letter) {
-
-    }
     public static void printSqr (int size, char letter){
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
@@ -106,8 +90,6 @@ public class ScannerFigure {
             spaces--;
         }
     }
-
-
 
     private static void printSandGlass(int size, char letter) {
         for (int i = 0; i < size; i++) {
